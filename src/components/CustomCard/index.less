@@ -1,0 +1,28 @@
+.customCard {
+  position: relative;
+  margin-bottom: 10px;
+
+  .icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  :global {
+    .ant-card-head-title {
+      color: rosybrown;
+    }
+    .ant-card-head {
+      border-bottom: 1px solid rosybrown;
+    }
+  }
+}
+
+.noPadding {
+  :global {
+    .ant-card-body {
+      padding: 0;
+    }
+  }
+}
